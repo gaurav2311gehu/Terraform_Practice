@@ -1,0 +1,55 @@
+# -----------------------------
+# Terraform state files (VERY IMPORTANT)
+# -----------------------------
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# -----------------------------
+# Terraform local working directory
+# -----------------------------
+.terraform/
+.terraform.lock.hcl
+
+# (Optional: commit this file if you want provider version locking)
+# Comment the above line if your team commits lock files
+
+# -----------------------------
+# Sensitive variable files
+# -----------------------------
+*.tfvars
+*.tfvars.json
+
+# Common secret naming patterns
+secrets.tfvars
+terraform.tfvars
+
+# -----------------------------
+# Override files
+# -----------------------------
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# -----------------------------
+# CLI configuration files
+# -----------------------------
+.terraformrc
+terraform.rc
+
+# -----------------------------
+# Plan output files
+# -----------------------------
+*.tfplan
+plan.out
+
+# -----------------------------
+# Editor / OS files (optional but recommended)
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
